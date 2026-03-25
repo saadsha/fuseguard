@@ -15,6 +15,7 @@ jobs:
         working-directory: frontend
       - run: flutter build web --dart-define=API_URL=https://fuseguard.onrender.com/api --dart-define=SOCKET_URL=https://fuseguard.onrender.com
         working-directory: frontend
+      - run: cp frontend/web/vercel.json frontend/build/web/vercel.json
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
