@@ -1,0 +1,4 @@
+{
+  "buildCommand": null,
+  "ignoreCommand": "bash -c '[[ \"$VERCEL_GIT_COMMIT_REF\" == \"main\" ]] && exit 1 || exit 0'"
+}
