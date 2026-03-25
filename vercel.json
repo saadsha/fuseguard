@@ -1,4 +1,8 @@
 {
+  "github": {
+    "silent": true
+  },
   "buildCommand": null,
-  "ignoreCommand": "bash -c '[[ \"$VERCEL_GIT_COMMIT_REF\" == \"main\" ]] && exit 1 || exit 0'"
+  "installCommand": "echo 'Build handled by GitHub Actions'",
+  "framework": null
 }
