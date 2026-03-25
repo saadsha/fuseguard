@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../models/fault.dart';
 import '../services/fault_service.dart';
 
 class FaultProvider with ChangeNotifier {
